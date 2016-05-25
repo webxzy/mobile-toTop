@@ -3,3 +3,4 @@ A simple, without any dependence on the mobile terminal back to the top of a sma
 
 versions: 1.0
 author: webxzy@163.com
+add: feature-A
