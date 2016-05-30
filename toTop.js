@@ -17,7 +17,7 @@ function Totop(opt) {
 	this.timer = null;
 	var self = this;
 	this.e = document.createElement('div');
-	this.e.style.cssText = 'width: '+this.defuls.width+'px;height: '+this.defuls.height+'px;line-height: '+this.defuls.height+'px;color: #fff;font-size: '+this.defuls.size+'px;font-weight: 100;right: '+ this.defuls.right+';bottom: '+this.defuls.bottom+';position: fixed;transition-property: opacity;	transition-duration: 200ms;text-align: center;border-radius: '+this.defuls.radius+';background-color: rgba(0, 0, 0, '+this.defuls.opacity+');opacity: 0;z-index: 9999';
+	this.e.style.cssText = 'width: '+this.defuls.width+'px;height: '+this.defuls.height+'px;line-height: '+this.defuls.height+'px;color: #fff;font-size: '+this.defuls.size+'px;font-weight: 100;right: '+ this.defuls.right+';bottom: '+this.defuls.bottom+';position: fixed;transition-property: opacity;	transition-duration: 200ms;text-align: center;border-radius: '+this.defuls.radius+';background-color: rgba(0, 0, 0, '+this.defuls.opacity+');font-family: serif;opacity: 0;z-index: 9999';
 	this.e.innerHTML = '&and;';
 	document.body.appendChild(this.e);
 
